@@ -30,12 +30,12 @@ npm install --save-dev karma-Jasmine
 ```
 karma start
 ```
-![](./images/pic1.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic1.PNG)
 4、Karma + Jasmine配置
 ```
 karma init
 ```
-![](./images/pic2.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic2.PNG)
 
 ### 自动化单元测试
 1). 创建源文件：用于实现某种业务逻辑的文件，就是我们平时写的js脚本
@@ -67,7 +67,7 @@ exclude: ['karma.conf.js'],
 ```
 karma start karma.conf.js
 ```
-![](images/pic3.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic3.PNG)
 ### Karma和istanbul代码覆盖率
 1、全局安装istanbul依赖karma-coverage
 ```
@@ -89,7 +89,7 @@ coverageReporter: {
 
 在工程目录下面找到index.html文件，coverage/chrome/index.html
 
-![](images/pic4.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic4.PNG)
 
 接下来，我们修改src.js，增加一个if分支
 
@@ -101,11 +101,11 @@ function reverse(word){
 ```
 
 再看覆盖率报告，下降得有点恐怖
-![](./images/pic5.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic5.PNG)
 
 ### 出现的坑
 千万记住要先全局安装再局部安装，不然老是报错：jasmine-core模块未找到
 
-![](./images/pic6.png)
+![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic6.PNG)
 参考：
 [Error: Cannot find module 'jasmine-core'](https://stackoverflow.com/questions/35993875/error-cannot-find-module-jasmine-core/35994050)
