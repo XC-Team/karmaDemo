@@ -31,6 +31,7 @@ npm install --save-dev karma-Jasmine
 karma start
 ```
 ![](https://github.com/Zenquan/karmaDemo/blob/master/images/pic1.PNG)
+
 4、Karma + Jasmine配置
 ```
 karma init
